@@ -73,7 +73,9 @@ inline SVG. The only external request is a Google Fonts stylesheet, and every
 typeface has a real fallback stack. The page works opened directly from disk as
 a `file://` URL.
 
-Published with GitHub Pages from `/site` on `main`.
+Published with GitHub Pages. GitHub only serves a branch root or `/docs`
+directly, so `.github/workflows/pages.yml` uploads `site/` as the Pages
+artifact on every push to `main`. The site itself still has no build step.
 
 ## Disclaimer
 

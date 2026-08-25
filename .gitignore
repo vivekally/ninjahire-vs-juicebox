@@ -1,0 +1,15 @@
+# Local agent instructions. Never commit.
+CLAUDE.md
+**/CLAUDE.md
+.claude/
+
+# OS and editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Scratch
+*.log
+node_modules/

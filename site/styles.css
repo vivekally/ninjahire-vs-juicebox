@@ -181,7 +181,7 @@ h4.subhead {
 .nav-row {
   display: flex;
   align-items: center;
-  gap: var(--s5);
+  gap: var(--s4);
   min-height: 56px;
 }
 .brand {
@@ -209,7 +209,7 @@ h4.subhead {
 .nav-links::-webkit-scrollbar-thumb { background: var(--line); }
 .nav-links a {
   display: block;
-  padding: var(--s2) var(--s3);
+  padding: var(--s2) 8px;
   font-size: var(--t-xs);
   color: var(--ink-faint);
   text-decoration: none;

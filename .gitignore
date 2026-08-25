@@ -13,3 +13,4 @@ Thumbs.db
 # Scratch
 *.log
 node_modules/
+.gstack/
